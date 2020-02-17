@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?familyMuli);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: 'Muli',sans-serif;
+    text-align: justify;
+    margin-top: 8.125rem;
+    color: #403530;
+}
+
+header, nav, footer{
+    background-color: #000000;
+}
+
+header{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    height: 8.125rem;
+    width: 100%;
+}
+
+footer{
+    overflow: hidden;
+    margin-top: 0.5%;
+    height: 3rem;
+    width: 100%;
+}
+
+header div, footer div{
+    width: 80%;
+    margin: 0 auto;
+    color: #ffffff;
+    padding-top: 1%;
+}
+
+header h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+    overflow: hidden;
+}
+
+header h2{
+    font-size: 1.5rem;
+}
+
+section{
+    float: left;
+    width: 80%;
+    overflow: hidden;
+}
+
+section article{
+    font-size: 0.9rem;
+    height: 420px;
+    float: left;
+    width: 49.25%;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    border: 1px solid #eb2315;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+article > a{
+    display: block;
+    float:  right;
+    padding: 10px 30px;
+    background-color: #eb2315;
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-box-shadow: inset -5px -5px 0px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset -5px -5px 0px -2px rgba(0,0,0,0.75);
+    box-shadow: inset -5px -5px 0px -2px rgba(0,0,0,0.75);
+
+}
+
+article > a:hover{
+    -webkit-box-shadow: inset 5px 5px 0px -2px rgba(0,0,0,1);
+    -moz-box-shadow: inset 5px 5px 0px -2px rgba(0,0,0,1);
+    box-shadow: inset 5px 5px 0px -2px rgba(0,0,0,1);
+}
+
+section article:last-child{
+    margin-bottom: 0.5%;
+}
+
+section article h3{
+    color: #eb2315;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+section article img{
+    height: 180px;
+    max-width: 80%;
+    display: block;
+    margin: 10px auto;
+
+}
+
+nav{
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    width: 19.5%;
+    margin: 0.5%;
+    margin-right: 0;
+}
+
+nav > ul{
+    list-style-type: none;
+}
+
+nav > ul > li > a, nav > ul> li:first-child{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+nav > ul> li:first-child{
+    background-color: #eb2315;
+}
+
+nav > ul > li > a:hover{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.2rem;
+    padding: 0.5rem 3rem;
+}
